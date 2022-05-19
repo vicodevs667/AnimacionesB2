@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         inicializarVistas();
         inicializarAnimaciones();
         btnMover.setOnClickListener(view -> {
+            //TODO revisar animaciones no corren
             leftRight.setDuration(5000);
             ivImagen.setAnimation(leftRight);
         });
